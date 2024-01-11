@@ -1,0 +1,61 @@
+mqtt: The standard for lot messaging
+
+Client side:
+    - the computer that the user is connected to
+    - send and read and alter and edit messages
+    - very nice gui thats easy for the user
+    - only access your messages
+
+Server side:
+    - most likely a lower level gui possibly a terminal
+    - see all the messages that go through the server
+
+Client side todo list:
+    - Good gui
+        - easy to use
+        - simplistic
+            - lack of unessisary information
+            - larger clear text
+        - ordering / sorting
+            - a - b - c
+            - popularity
+                - amount of times used
+                - time spent one
+                - chosen favorite
+        - use of images instead of long words
+        - use of round elements instead of squares
+        - help to navigate through gui
+        - use of colors
+    - Fast messaging
+        - make sure the the messaging is fast and does no take years
+        - read messages and typing notifications
+        - voice typing messages
+    - ability to do group and individual messages
+    - ability to send images and videos 
+        - displaying those images and not just the file
+    - ability to send any files type
+
+Server side todo list:
+
+    - user authentication
+    - message sending/receiving
+
+    - fast messaging and routing
+    - ability to handle group and individual messages
+    - ability to send any file type
+    - saved message logs
+    - log in system
+        - username and password
+        - possible facial recognition
+
+Ben:
+    - server related things
+    - user authentication
+
+Eliasyn:
+    - graphical interface desing
+    - look pretty
+
+Mateo:
+    - server side stuff
+    - message transaction 
