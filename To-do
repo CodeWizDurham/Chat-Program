@@ -50,7 +50,6 @@ Server side todo list:
 
 Ben:
     - server related things
-    - user authentication
 
 Eliasyn:
     - graphical interface design
@@ -59,3 +58,6 @@ Eliasyn:
 Mateo:
     - server side stuff
     - message transaction
+
+Done:
+    - user authentication
