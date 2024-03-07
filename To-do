@@ -11,7 +11,7 @@ Server side:
     - see all the messages that go through the server
     - Framework for React integration.
 
-Client side todo list:
+Client side todo:
     - Good gui
         - easy to use
         - simplistic
@@ -36,7 +36,7 @@ Client side todo list:
         - displaying those images and not just the file
     - ability to send any files type
 
-Server side todo list:
+Server side todo:
 
     - user authentication
     - message sending/receiving
