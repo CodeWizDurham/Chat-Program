@@ -16,9 +16,7 @@ class auth:
     def login(self):
         with open("auth.txt", "r") as authfile:
             for line in authfile:
-                print(line)
                 userf, passwd = line.split(",")
                 passwd = passwd.encode('utf-8')
-                print(userf)
                 if userf == self.user:
                     self.correct = bcrypt.checkpw(self.passwd, passwd)
