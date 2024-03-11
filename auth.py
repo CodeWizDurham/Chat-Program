@@ -6,10 +6,9 @@ class auth:
         self.user = user
         self.passwd = passwd.encode('utf-8')
         self.correct = False
-        self.salt = bcrypt.gensalt()
 
     def setupd(self):
-        passwdw = bcrypt.hashpw(self.passwd, self.salt).decode('utf-8')
+        passwdw = bcrypt.hashpw(self.passwd, bcrypt.gensalt()).decode('utf-8')
         with open("auth.txt", "a") as authfile:
             authfile.write(f"{self.user},{passwdw}\n")
 
