@@ -1,7 +1,7 @@
 import bcrypt
 
 
-class auth:
+class Auth:
     def __init__(self, user, passwd):
         self.user = user
         self.passwd = passwd.encode('utf-8')
