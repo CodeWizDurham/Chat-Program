@@ -8,8 +8,8 @@ Client side:
 
 Server side:
     - most likely a lower level gui possibly a terminal
-    - see all the messages that go through the server
-    - Framework for React integration.
+        - see all the messages that go through the server
+    - Flask
 
 Client side todo:
     - Good gui
@@ -46,8 +46,6 @@ Server side todo:
     - saved message logs
     - log in system
         - username and password
-        - possible facial recognition
-    - decide what framework to use for React integration (Flask, Django?)
 
 Ben:
     - server related things
